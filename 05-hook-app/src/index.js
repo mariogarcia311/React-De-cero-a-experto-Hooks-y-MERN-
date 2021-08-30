@@ -13,14 +13,13 @@ import './index.css';
 // import { Memorize } from './components/06-memos/Memorize';
 // import { MemoHooks } from './components/06-memos/MemoHook';
 // import { CallbackHooks } from './components/06-memos/CallbackHooks';
-import { Padre } from './components/07-tarea-memo/Padre';
+// import { Padre } from './components/07-tarea-memo/Padre';
+// import './components/08-useReducer/intro-reducer'
+import { TodoApp } from './components/08-useReducer/TodoApp';
 
 ReactDOM.render(
-    <Padre />,
+    <TodoApp />,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
